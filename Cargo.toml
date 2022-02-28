@@ -1,0 +1,13 @@
+[package]
+name = "sudoku_solver"
+authors = ["Shaun Beautement <sf.beautement@protonmail.com>"]
+version = "1.0.0"
+edition = "2021"
+
+[[bin]]
+name = "app"
+path = "src/main.rs"
+
+[lib]
+name = "sudoku_solver"
+path = "src/lib.rs"
